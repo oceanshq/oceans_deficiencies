@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    oceans_deficiencies (0.1.1)
+    oceans_deficiencies (0.1.2)
       railties (~> 5.1.0)
 
 GEM
