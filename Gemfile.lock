@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     oceans_deficiencies (0.1.0)
-      railties (~> 5.2)
+      railties (>= 5.1)
 
 GEM
   remote: https://rubygems.org/
