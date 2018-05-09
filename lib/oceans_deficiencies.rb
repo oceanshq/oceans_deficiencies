@@ -1,5 +1,9 @@
 require "oceans_deficiencies/version"
+require "oceans_deficiencies/railtie" if defined?(Rails)
 
 module OceansDeficiencies
-  # Your code goes here...
+  module Rails
+    class Engine < ::Rails::Engine
+    end
+  end
 end
